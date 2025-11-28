@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<DiagnosticRequest>
+  <PatientInfo>
+    <PatientID>0000900008</PatientID>
+    <PatientName>テスト 患者8</PatientName>
+    <PatientNameKana>ﾃｽﾄ ｶﾝｼﾞｬ8</PatientNameKana>
+    <PatientNameRoman>test kannja8</PatientNameRoman>
+    <BirthDate>2006/07/06</BirthDate>
+    <Sex>M</Sex>
+    <BloodType>+</BloodType>
+    <Height>122.5</Height>
+    <Weight>89.6</Weight>
+    <ZipCode />
+    <Address>〒000-0002東京都大田区</Address>
+    <Telephone />
+    <MobileTelephone />
+    <email />
+    <Comment />
+    <InfectionCollection>
+      <Infection>
+        <Name>感染症情報AAA(最新)</Name>
+        <Value>+</Value>
+      </Infection>
+    </InfectionCollection>
+    <ContraindicationCollection>
+      <Contraindication>
+        <Name>BBB</Name>
+        <Value>+</Value>
+      </Contraindication>
+    </ContraindicationCollection>
+    <AnamnesisCollection>
+      <Anamnesis>
+        <Name />
+        <Value />
+        <Status />
+      </Anamnesis>
+    </AnamnesisCollection>
+    <PrescriptionCollection>
+      <Prescription>
+        <Name />
+        <Quantity />
+        <Unit />
+      </Prescription>
+    </PrescriptionCollection>
+  </PatientInfo>
+  <OrderInfo>
+    <Revision>1</Revision>
+    <OrderNumber>0997454820181031</OrderNumber>
+    <Institution />
+    <Department code="01">内科</Department>
+    <OrderKind code="IP">単純</OrderKind>
+    <RequestDoctor code="1001">内科　医師１</RequestDoctor>
+    <Hospitalization>1</Hospitalization>
+    <Ward code="72" />
+    <IntroductionInstitution />
+    <Disease />
+    <Purpose />
+    <TreatmentProgress />
+    <Comment />
+    <OrderType>1</OrderType>
+    <SpecifiedDoctor />
+    <BodyPartCollection>
+      <BodyPart code="G01">胸部</BodyPart>
+      <BodyPart code="A03">腹部大動脈(IADSA)</BodyPart>
+      <BodyPart code="CQA">胸～肝臓</BodyPart>
+    </BodyPartCollection>
+    <OrderFileCollection>
+      <OrderFile />
+    </OrderFileCollection>
+    <KeyImageFileCollection>
+      <KeyImageFile />
+    </KeyImageFileCollection>
+    <SchemaImageFileCollection>
+      <SchemaImageFile />
+    </SchemaImageFileCollection>
+  </OrderInfo>
+  <StudyInfo>
+    <StudyDate>2018/10/31</StudyDate>
+    <StudyTimeStart>09:28:18</StudyTimeStart>
+    <StudyTimeEnd>09:28:18</StudyTimeEnd>
+    <Modality>CRA</Modality>
+    <StudyType code="IP">単純</StudyType>
+    <Direction code="503">正面</Direction>
+    <BodyPartCollection>
+      <BodyPart code="G01">胸部</BodyPart>
+    </BodyPartCollection>
+    <ContrastCollection>
+      <Contrast />
+    </ContrastCollection>
+    <StudyInstanceUID>1.2.392.200045.1.507.2.1000.9.157393934626.1278674070247</StudyInstanceUID>
+    <Comment />
+    <TechnologistComment />
+    <DiagGroupId />
+  </StudyInfo>
+</DiagnosticRequest>

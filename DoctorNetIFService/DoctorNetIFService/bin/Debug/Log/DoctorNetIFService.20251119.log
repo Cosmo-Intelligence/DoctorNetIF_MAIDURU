@@ -1,0 +1,19 @@
+DEBUG 2025-11-19 15:30:32.982 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:30:33.006 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:30:33.009 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:30:33.009 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:30:33.013 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:30:33.013 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:30:33.013 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:30:33.013 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:30:33.013 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:30:33.013 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:30:33.025 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+ERROR 2025-11-19 15:30:41.232 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 致命的なエラーが発生しました。
+ERROR 2025-11-19 15:30:41.252 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - System.TypeInitializationException: 'Oracle.DataAccess.Client.OracleConnection' のタイプ初期化子が例外をスローしました。 ---> Oracle.DataAccess.Client.OracleException: The provider is not compatible with the version of Oracle client
+   場所 Oracle.DataAccess.Client.OracleInit.Initialize()
+   場所 Oracle.DataAccess.Client.OracleConnection..cctor()
+   --- 内部例外スタック トレースの終わり ---
+   場所 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   場所 RISODPLibrary.Lib.Utils.ODPConnectionUtils.Connect(String connectionString) 場所 C:\Users\cosmo\Desktop\西原work\愛媛大対応\trunk\src\HIS-RIS\RIS\Library\RISODPLibrary\Lib\Utils\ODPConnectionUtils.cs:行 16
+   場所 DoctorNetIFService.Model.TableInfoWatcher.ExcecuteOne() 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoWatcher.cs:行 120

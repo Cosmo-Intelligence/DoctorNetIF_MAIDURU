@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77DA6E5E-441A-449A-9E7E-6614F5D38700}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RISBizLibrary</RootNamespace>
+    <AssemblyName>RISBizLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\log4net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Oracle.DataAccess, Version=2.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Oracle.DataAccess.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RISCommonLibrary, Version=1.0.6989.31257, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\RISCommonLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RISODPLibrary, Version=1.0.6989.31326, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\RISODPLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\SettingsAdapter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\BaseMsgData.cs" />
+    <Compile Include="Data\RQRISDBConst.cs" />
+    <Compile Include="Download\Data\ChangeSectionMsgData.cs" />
+    <Compile Include="Download\Data\ChangeWardMsgData.cs" />
+    <Compile Include="Download\Data\HospitalMsgData.cs" />
+    <Compile Include="Download\Data\LeaveHospitalizeMsgData.cs" />
+    <Compile Include="Download\Data\OrderInfoMsgData.cs" />
+    <Compile Include="Download\Data\PatientInfoMsgData.cs" />
+    <Compile Include="Download\Model\BaseMsgDBSetter.cs" />
+    <Compile Include="Download\Model\ChangeSectionMsgDBSetter .cs" />
+    <Compile Include="Download\Model\ChangeWardMsgDBSetter.cs" />
+    <Compile Include="Download\FileDownload.cs" />
+    <Compile Include="Download\Model\HospitalMsgDBSetter.cs" />
+    <Compile Include="Download\Model\LeaveHospitalizeMsgDBSetter.cs" />
+    <Compile Include="Download\Model\MessageHandler.cs" />
+    <Compile Include="Download\Model\MessageHandlerChangeSection.cs" />
+    <Compile Include="Download\Model\MessageHandlerChangeWard.cs" />
+    <Compile Include="Download\Model\MessageHandlerHospital.cs" />
+    <Compile Include="Download\Model\MessageHandlerLeaveHospital.cs" />
+    <Compile Include="Download\Model\MessageHandlerOrderInfo.cs" />
+    <Compile Include="Download\Model\MessageHandlerPatient.cs" />
+    <Compile Include="Download\Model\OrderInfoMsgDBSetter.cs" />
+    <Compile Include="Download\Model\PatientInfoMsgDBSetter.cs" />
+    <Compile Include="Download\ServiceLooperDownload.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Updater\ChangeSectionUpdater.cs" />
+    <Compile Include="Updater\ChangeWardUpdater.cs" />
+    <Compile Include="Updater\HospitalUpdater.cs" />
+    <Compile Include="Updater\LeaveHospitalUpdater.cs" />
+    <Compile Include="Updater\OrderInfoUpdater.cs" />
+    <Compile Include="Updater\PatientUpdater.cs" />
+    <Compile Include="Updater\Table\BaseUpdater.cs" />
+    <Compile Include="Updater\Table\EXMAINTABLEUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\EXTENDORDERINFOUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\FROMHISINFOUpdater.cs" />
+    <Compile Include="Updater\Table\FROMHISINFOUpdaterChangeSection.cs" />
+    <Compile Include="Updater\Table\FROMHISINFOUpdaterChangeWard.cs" />
+    <Compile Include="Updater\Table\FROMHISINFOUpdaterHospital.cs" />
+    <Compile Include="Updater\Table\FROMHISINFOUpdaterLeaveHospital.cs" />
+    <Compile Include="Updater\Table\FROMHISINFOUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\FROMHISINFOUpdaterPatient.cs" />
+    <Compile Include="Updater\Table\FROMHISINFO\FROMHISINFOState.cs" />
+    <Compile Include="Updater\Table\FROMHISINFO\FROMHISINFOStateChangeSection.cs" />
+    <Compile Include="Updater\Table\FROMHISINFO\FROMHISINFOStateChangeWard.cs" />
+    <Compile Include="Updater\Table\FROMHISINFO\FROMHISINFOStateHospitalize.cs" />
+    <Compile Include="Updater\Table\FROMHISINFO\FROMHISINFOStateLeaveHospitalize.cs" />
+    <Compile Include="Updater\Table\FROMHISINFO\FROMHISINFOStateOrderInfo.cs" />
+    <Compile Include="Updater\Table\FROMHISINFO\FROMHISINFOStatePatient.cs" />
+    <Compile Include="Updater\Table\ITableUpdater.cs" />
+    <Compile Include="Updater\Table\ORDERBUITABLEUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\ORDERINDICATETABLEUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\ORDERMAINTABLEUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\PATIENTCOMMENTSUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\PATIENTINFOUpdaterChangeSection.cs" />
+    <Compile Include="Updater\Table\PATIENTINFOUpdaterChangeWard.cs" />
+    <Compile Include="Updater\Table\PATIENTINFOUpdaterHospital.cs" />
+    <Compile Include="Updater\Table\PATIENTINFOUpdaterLeaveHospital .cs" />
+    <Compile Include="Updater\Table\PATIENTINFOUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\PATIENTINFOUpdaterPatient.cs" />
+    <Compile Include="Updater\Table\TOHISINFOUpdater.cs" />
+    <Compile Include="Updater\Table\TOHISINFOUpdaterrPatient.cs" />
+    <Compile Include="Updater\Table\TOHISINFOUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\TOHISINFOUpdaterHospitalize.cs" />
+    <Compile Include="Updater\Table\TOHISINFO\TOHISINFOStatePatient.cs" />
+    <Compile Include="Updater\Table\TOHISINFO\TOHISINFOStateOrderInfo.cs" />
+    <Compile Include="Updater\Table\TOOTHERSYSTEMINFO\TOOTHERSYSTEMINFOState.cs" />
+    <Compile Include="Updater\Table\TOOTHERSYSTEMINFO\TOOTHERSYSTEMINFOStateOrderInfo.cs" />
+    <Compile Include="Updater\Table\TOOTHERSYSTEMINFO\TOOTHERSYSTEMINFOStatePatient.cs" />
+    <Compile Include="Updater\Table\TOREPORTINFOUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\TOHISINFO\TOHISINFOState.cs" />
+    <Compile Include="Updater\Table\TOHISINFO\TOHISINFOStateHospitalize.cs" />
+    <Compile Include="Updater\Table\TOOTHERSYSTEMINFOUpdater.cs" />
+    <Compile Include="Updater\Table\TOSYNAPSEINFOUpdater.cs" />
+    <Compile Include="Updater\Table\TOOTHERSYSTEMINFOUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\TOSYNAPSEINFOUpdaterOrderInfo.cs" />
+    <Compile Include="Updater\Table\TOOTHERSYSTEMINFOUpdaterPatient.cs" />
+    <Compile Include="Updater\Table\TOSYNAPSEINFOUpdaterPatient.cs" />
+    <Compile Include="Updater\Table\TOSYNAPSEINFO\TOSYNAPSEINFOState.cs" />
+    <Compile Include="Updater\Table\TOSYNAPSEINFO\TOSYNAPSEINFOStateOrderInfo.cs" />
+    <Compile Include="Updater\Table\TOSYNAPSEINFO\TOSYNAPSEINFOStatePatient.cs" />
+    <Compile Include="Upload\Data\BaseSendMsgData.cs" />
+    <Compile Include="Upload\Data\ExamInfoMsgData.cs" />
+    <Compile Include="Upload\Data\PatientRequestMsgData.cs" />
+    <Compile Include="Upload\Data\OrderReqInfoMsgData.cs" />
+    <Compile Include="Upload\Data\ReceiptMsgData.cs" />
+    <Compile Include="Upload\Data\ToHisInfo.cs" />
+    <Compile Include="Upload\FileUploader.cs" />
+    <Compile Include="Upload\MessageCreator\BaseMsgCreator.cs" />
+    <Compile Include="Upload\MessageCreator\ExamInfoMsgCreator.cs" />
+    <Compile Include="Upload\MessageCreator\IMessageCreator.cs" />
+    <Compile Include="Upload\MessageCreator\OrderReqInfoMsgCreator.cs" />
+    <Compile Include="Upload\MessageCreator\PatientReqInfoMsgCreator.cs" />
+    <Compile Include="Upload\MessageCreator\ReceiptInfoMsgCreator.cs" />
+    <Compile Include="Upload\ServiceLooperUpload.cs" />
+    <Compile Include="Upload\ToHisInfoHelper.cs" />
+    <Compile Include="Upload\ToHisInfoSender.cs" />
+    <Compile Include="Utils\DeleteOldLogHelper.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

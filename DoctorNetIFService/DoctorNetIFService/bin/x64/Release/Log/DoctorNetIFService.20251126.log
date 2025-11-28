@@ -1,0 +1,11 @@
+DEBUG 2025-11-26 11:44:21.123 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-26 11:44:21.181 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-26 11:44:21.185 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-26 11:44:21.188 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-26 11:44:21.190 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-26 11:44:21.193 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-26 11:44:21.195 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-26 11:44:21.197 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-26 11:44:21.198 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-26 11:44:21.201 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : \\N-0116\folder\DoctorNetIFService
+DEBUG 2025-11-26 11:44:21.205 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 15

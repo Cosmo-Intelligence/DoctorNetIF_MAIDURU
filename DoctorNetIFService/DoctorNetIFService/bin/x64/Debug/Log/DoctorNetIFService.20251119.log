@@ -1,0 +1,990 @@
+DEBUG 2025-11-19 15:23:51.181 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:23:51.219 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:23:51.221 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:23:51.221 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:23:51.224 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:23:51.224 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:23:51.228 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:23:51.228 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:23:51.232 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:23:51.232 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:23:51.232 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 15:25:20.373 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:25:20.389 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:25:20.389 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:25:20.389 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:25:20.402 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:25:20.404 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:25:20.404 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:25:20.408 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:25:20.411 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:25:20.411 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:25:20.411 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+ERROR 2025-11-19 15:26:07.686 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 致命的なエラーが発生しました。
+ERROR 2025-11-19 15:26:07.717 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - System.TypeInitializationException: 'Oracle.DataAccess.Client.OracleConnection' のタイプ初期化子が例外をスローしました。 ---> Oracle.DataAccess.Client.OracleException: The provider is not compatible with the version of Oracle client
+   場所 Oracle.DataAccess.Client.OracleInit.Initialize()
+   場所 Oracle.DataAccess.Client.OracleConnection..cctor()
+   --- 内部例外スタック トレースの終わり ---
+   場所 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   場所 RISODPLibrary.Lib.Utils.ODPConnectionUtils.Connect(String connectionString) 場所 C:\Users\cosmo\Desktop\西原work\愛媛大対応\trunk\src\HIS-RIS\RIS\Library\RISODPLibrary\Lib\Utils\ODPConnectionUtils.cs:行 16
+   場所 DoctorNetIFService.Model.TableInfoWatcher.ExcecuteOne() 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoWatcher.cs:行 120
+DEBUG 2025-11-19 15:27:02.044 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:27:02.078 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:27:02.078 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:27:02.078 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:27:02.084 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:27:02.087 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:27:02.090 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:27:02.092 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:27:02.094 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:27:02.097 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:27:02.099 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 15:32:29.638 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:32:29.716 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:32:29.716 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:32:29.716 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:32:29.716 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:32:29.726 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:32:29.726 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:32:29.726 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:32:29.726 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:32:29.732 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:32:29.732 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 15:33:00.803 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:33:00.833 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:33:00.833 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:33:00.833 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:33:00.841 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:33:00.841 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:33:00.841 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:33:00.841 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:33:00.841 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:33:00.848 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:33:00.848 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 15:33:32.667 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:33:32.701 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:33:32.703 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:33:32.705 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:33:32.707 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:33:32.709 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:33:32.709 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:33:32.711 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:33:32.713 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:33:32.713 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:33:32.713 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 15:35:44.360 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 15:36:11.977 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:36:12.020 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:36:12.020 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:36:12.020 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:36:12.020 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:36:12.029 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:36:12.029 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:36:12.029 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:36:12.029 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:36:12.029 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:36:12.036 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 15:36:28.529 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 15:37:52.619 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:37:52.639 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:37:52.639 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:37:52.639 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:37:52.639 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:37:52.639 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:37:52.639 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:37:52.639 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:37:52.639 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:37:52.639 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:37:52.654 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 15:38:20.753 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+ERROR 2025-11-19 15:38:23.571 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - System.ArgumentException: OracleParameterオブジェクトはコレクションにすでにあります
+   場所 Oracle.DataAccess.Client.OracleParameterCollection.Add(Object obj)
+   場所 DoctorNetIFService.Model.TableInfoHelper.GetDataToOtherSystemInfo(IDbConnection cnRISDB, String requesttype, Int32 systemno, Int32 recordcount) 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoHelper.cs:行 66
+   場所 DoctorNetIFService.Model.TableInfoWatcher.ExcecuteOne() 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoWatcher.cs:行 141
+DEBUG 2025-11-19 15:38:50.092 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+ERROR 2025-11-19 15:39:03.936 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - System.ArgumentException: OracleParameterオブジェクトはコレクションにすでにあります
+   場所 Oracle.DataAccess.Client.OracleParameterCollection.Add(Object obj)
+   場所 DoctorNetIFService.Model.TableInfoHelper.GetDataToOtherSystemInfo(IDbConnection cnRISDB, String requesttype, Int32 systemno, Int32 recordcount) 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoHelper.cs:行 66
+   場所 DoctorNetIFService.Model.TableInfoWatcher.ExcecuteOne() 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoWatcher.cs:行 141
+DEBUG 2025-11-19 15:41:13.338 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:41:13.391 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:41:13.393 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:41:13.395 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:41:13.397 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:41:13.399 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:41:13.400 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:41:13.402 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:41:13.404 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:41:13.405 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:41:13.408 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 15:41:17.113 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+ERROR 2025-11-19 15:41:49.443 [1] DoctorNetIFService.Program Main - アプリケーションを多重起動しようとした為、アプリケーションを強制終了します。
+ERROR 2025-11-19 15:41:54.282 [1] DoctorNetIFService.Program Main - アプリケーションを多重起動しようとした為、アプリケーションを強制終了します。
+DEBUG 2025-11-19 15:41:59.862 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:41:59.889 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:41:59.889 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:41:59.889 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:41:59.889 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:41:59.889 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:41:59.889 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:41:59.889 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:41:59.889 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:41:59.905 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:41:59.905 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 15:42:03.986 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 15:43:02.248 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:43:02.270 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:43:02.276 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:43:02.277 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:43:02.279 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:43:02.279 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:43:02.282 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:43:02.284 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:43:02.287 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:43:02.289 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:43:02.289 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 15:43:07.468 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 15:43:24.468 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 15:43:24.471 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 15:43:24.480 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 15:43:24.482 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 15:43:24.482 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 15:48:55.542 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 15:48:55.565 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 15:48:55.566 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 15:48:55.567 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 15:48:55.568 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 15:48:55.569 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 15:48:55.570 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 15:48:55.572 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 15:48:55.572 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 15:48:55.573 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 15:48:55.574 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:07:16.357 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:07:17.248 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:07:17.268 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:07:17.268 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:07:17.268 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:07:17.268 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:08:16.135 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:08:16.144 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:08:16.148 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:08:16.152 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:08:16.154 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:09:11.742 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:09:11.783 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:09:11.783 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:09:11.788 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:09:11.790 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:09:11.792 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:09:11.792 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:09:11.795 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:09:11.797 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:09:11.797 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:09:11.801 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:09:15.612 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:09:16.576 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:09:16.592 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:09:16.594 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:09:16.594 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:09:16.594 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:09:19.890 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:09:19.896 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:09:19.902 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:09:19.907 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:09:19.911 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+ERROR 2025-11-19 16:09:23.404 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - System.InvalidCastException: 指定されたキャストは有効ではありません。
+   場所 Oracle.DataAccess.Client.OracleDataReader.GetString(Int32 i)
+   場所 RISCommonLibrary.Lib.Utils.DataReaderUtils.GetStringByDBString(IDataReader dr, String fieldName, String defaultValue) 場所 C:\Users\cosmo\Desktop\西原work\愛媛大対応\trunk\src\HIS-RIS\RIS\Library\RISCommonLibrary\Lib\Utils\DataReaderUtils.cs:行 87
+   場所 RISCommonLibrary.Lib.Utils.DataReaderUtils.GetStringByDBString(IDataReader dr, String fieldName) 場所 C:\Users\cosmo\Desktop\西原work\愛媛大対応\trunk\src\HIS-RIS\RIS\Library\RISCommonLibrary\Lib\Utils\DataReaderUtils.cs:行 70
+   場所 DoctorNetIFService.Model.TableInfoHelper.GetDataToOtherSystemInfo(IDbConnection cnRISDB, String requesttype, Int32 systemno, Int32 recordcount) 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoHelper.cs:行 111
+   場所 DoctorNetIFService.Model.TableInfoWatcher.ExcecuteOne() 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoWatcher.cs:行 141
+DEBUG 2025-11-19 16:11:43.425 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:11:43.461 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:11:43.465 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:11:43.466 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:11:43.467 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:11:43.469 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:11:43.469 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:11:43.469 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:11:43.469 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:11:43.469 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:11:43.469 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:12:28.827 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:12:28.868 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:12:28.868 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:12:28.873 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:12:28.873 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:12:28.877 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:12:28.877 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:12:28.877 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:12:28.877 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:12:28.877 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:12:28.877 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:12:33.421 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:12:34.593 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:12:34.593 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:12:34.607 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:12:34.607 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:12:34.607 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:12:35.748 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:12:35.752 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:12:35.755 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:12:35.757 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:12:35.757 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:13:34.963 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:13:34.982 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:13:34.982 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:13:34.982 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:13:34.982 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:13:34.982 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:13:34.982 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:13:34.999 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:13:35.001 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:13:35.003 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:13:35.005 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:13:38.702 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:13:39.420 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:13:39.437 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:13:39.445 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:13:39.446 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:13:39.451 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:13:40.654 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:13:40.654 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:13:40.658 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:13:40.658 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:13:40.658 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:30:15.013 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 16:30:43.136 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(RIS_ID) FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   EB.HOUKOU_ID = HM.HOUKOU_IDWHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 16:30:43.138 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+ERROR 2025-11-19 16:30:43.343 [1] DoctorNetIFService.Model.TableInfoManager ExeSelectDb - XML出力用データ取得でエラーが発生しました。Oracle.DataAccess.Client.OracleException (0x80004005): ORA-00905: キーワードがありません。
+   場所 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   場所 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   場所 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   場所 Oracle.DataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   場所 DoctorNetIFService.Model.TableInfoHelper.GetDataXmlOutPutData(IDbConnection cnRISDB, String ris_id) 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoHelper.cs:行 216
+   場所 DoctorNetIFService.Model.TableInfoManager.ExeSelectDb(IDbConnection cnRISDB, ToOtherSystemInfo toOtherSystemInfo) 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoManager.cs:行 136
+DEBUG 2025-11-19 16:31:20.307 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:31:20.348 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:31:20.352 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:31:20.358 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:31:20.360 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:31:20.362 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:31:20.366 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:31:20.366 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:31:20.366 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:31:20.373 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:31:20.376 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:35:01.358 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:35:02.249 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:35:02.267 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:35:02.276 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:35:02.279 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:35:02.279 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:35:04.085 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:35:04.087 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:35:04.089 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:35:04.091 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:35:04.095 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:35:05.649 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 16:35:20.259 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(RIS_ID) FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   EB.HOUKOU_ID = HM.HOUKOU_IDWHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 16:35:20.264 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 16:36:06.951 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:36:06.974 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:36:06.976 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:36:06.977 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:36:06.979 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:36:06.982 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:36:06.983 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:36:06.985 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:36:06.986 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:36:06.988 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:36:06.989 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:36:11.536 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:36:12.112 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:36:12.120 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:36:12.123 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:36:12.123 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:36:12.123 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:36:12.911 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:36:12.922 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:36:12.922 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:36:12.922 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:36:12.934 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:36:14.077 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 16:40:17.779 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:40:17.806 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:40:17.811 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:40:17.811 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:40:17.811 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:40:17.811 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:40:17.817 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:40:17.819 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:40:17.820 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:40:17.821 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:40:17.823 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:40:24.580 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:40:25.597 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:40:25.603 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:40:25.607 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:40:25.607 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:40:25.607 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:40:26.529 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:40:26.529 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:40:26.529 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:40:26.539 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:40:26.539 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:40:27.661 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 16:40:36.323 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   EB.HOUKOU_ID = HM.HOUKOU_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 16:40:36.326 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 16:40:44.404 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:40:44.457 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:40:44.457 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:40:44.465 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:40:44.467 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:40:44.469 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:40:44.469 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:40:44.469 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:40:44.477 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:40:44.477 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:40:44.477 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:40:49.186 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:40:49.918 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:40:49.926 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:40:49.926 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:40:49.932 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:40:49.932 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:40:50.527 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:40:50.530 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:40:50.533 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:40:50.540 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:40:50.545 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:40:51.966 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 16:42:44.209 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:42:44.272 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:42:44.272 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:42:44.277 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:42:44.277 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:42:44.279 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:42:44.281 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:42:44.283 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:42:44.283 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:42:44.283 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:42:44.283 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:45:19.533 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:45:20.344 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:45:20.351 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:45:20.357 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:45:20.364 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:45:20.366 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:45:21.905 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:45:21.905 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:45:21.915 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:45:21.921 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:45:21.921 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:45:23.013 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 16:45:33.327 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 16:45:33.343 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+ERROR 2025-11-19 16:46:04.660 [1] DoctorNetIFService.Model.TableInfoManager ExeSelectDb - XML出力用データ取得でエラーが発生しました。Oracle.DataAccess.Client.OracleException (0x80004005): ORA-00918: 列の定義が未確定です。
+   場所 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck, Int32 isRecoverable, OracleLogicalTransaction m_OracleLogicalTransaction)
+   場所 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck, OracleLogicalTransaction m_OracleLogicalTransaction)
+   場所 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   場所 Oracle.DataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   場所 DoctorNetIFService.Model.TableInfoHelper.GetDataXmlOutPutData(IDbConnection cnRISDB, String ris_id) 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoHelper.cs:行 216
+   場所 DoctorNetIFService.Model.TableInfoManager.ExeSelectDb(IDbConnection cnRISDB, ToOtherSystemInfo toOtherSystemInfo) 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoManager.cs:行 136
+DEBUG 2025-11-19 16:50:15.023 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:50:15.068 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:50:15.068 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:50:15.076 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:50:15.080 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:50:15.081 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:50:15.083 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:50:15.085 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:50:15.087 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:50:15.089 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:50:15.090 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:50:26.452 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:50:27.233 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:50:27.240 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:50:27.240 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:50:27.240 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:50:27.247 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:50:27.716 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:50:27.717 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:50:27.722 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:50:27.726 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:50:27.726 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:50:29.452 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 16:50:37.658 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 16:50:37.686 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+ERROR 2025-11-19 16:51:03.911 [1] DoctorNetIFService.Program Main - アプリケーションを多重起動しようとした為、アプリケーションを強制終了します。
+ERROR 2025-11-19 16:51:06.313 [1] DoctorNetIFService.Program Main - アプリケーションを多重起動しようとした為、アプリケーションを強制終了します。
+DEBUG 2025-11-19 16:51:12.146 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:51:12.155 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:51:12.170 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:51:12.171 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:51:12.171 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:51:12.171 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:51:12.171 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:51:12.171 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:51:12.171 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:51:12.171 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:51:12.171 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:51:16.166 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:51:17.677 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:51:17.685 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:51:17.685 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:51:17.685 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:51:17.685 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:51:18.739 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:51:18.739 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:51:18.748 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:51:18.748 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:51:18.748 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:51:20.732 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 16:51:26.798 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 16:51:26.810 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 16:54:09.153 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 16:54:09.180 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 16:54:09.182 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 16:54:09.184 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 16:54:09.186 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 16:54:09.186 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 16:54:09.186 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 16:54:09.194 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 16:54:09.194 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 16:54:09.201 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 16:54:09.203 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 16:54:32.696 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 16:54:33.662 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 16:54:33.676 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:54:33.681 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:54:33.685 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:54:33.689 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:54:34.826 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 16:54:34.834 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 16:54:34.838 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 16:54:34.844 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 16:54:34.849 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 16:54:35.801 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 16:54:39.109 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 16:54:39.109 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 16:54:50.764 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , TO_CHAR(PI.BIRTHDAY, 'yyyy/mm/dd') as BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , TO_CHAR(EM.KENSA_DATE, 'yyyy/mm/dd') as KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 16:54:50.776 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 17:08:31.524 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 17:08:31.563 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 17:08:31.563 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 17:08:31.563 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 17:08:31.563 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 17:08:31.563 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 17:08:31.576 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 17:08:31.579 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 17:08:31.579 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 17:08:31.579 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 17:08:31.579 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 17:09:06.577 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 17:09:07.514 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 17:09:07.533 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:09:07.533 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:09:07.541 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:09:07.541 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:09:08.221 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 17:09:08.227 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:09:08.233 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:09:08.238 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:09:08.240 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:09:09.107 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 17:09:12.423 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:09:12.423 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 17:09:31.462 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , TO_CHAR(PI.BIRTHDAY, 'yyyy/mm/dd') as BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , TO_CHAR(EM.KENSA_DATE, 'yyyy/mm/dd') as KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:09:31.469 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+ERROR 2025-11-19 17:09:40.780 [1] DoctorNetIFService.Model.TableInfoManager ExeSelectDb - XML出力用データ取得でエラーが発生しました。
+DEBUG 2025-11-19 17:10:06.112 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 17:10:06.157 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 17:10:06.157 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 17:10:06.157 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 17:10:06.157 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 17:10:06.168 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 17:10:06.170 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 17:10:06.170 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 17:10:06.170 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 17:10:06.170 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 17:10:06.170 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 17:11:04.690 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 17:11:05.826 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 17:11:05.826 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:11:05.826 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:11:05.841 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:11:05.842 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:11:07.763 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 17:11:07.763 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:11:07.763 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:11:07.763 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:11:07.763 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:11:09.263 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 17:11:11.608 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:11:11.608 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 17:18:36.743 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 17:18:36.784 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 17:18:36.786 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 17:18:36.790 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 17:18:36.790 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 17:18:36.795 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 17:18:36.799 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 17:18:36.805 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 17:18:36.809 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 17:18:36.813 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 17:18:36.817 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 17:19:11.294 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 17:19:12.076 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 17:19:12.084 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:19:12.087 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:19:12.092 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:19:12.092 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:19:12.923 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 17:19:12.935 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:19:12.939 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:19:12.941 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:19:12.941 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:19:15.404 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 17:19:17.327 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:19:17.327 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 17:19:23.702 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , TO_CHAR(PI.BIRTHDAY, 'yyyy/mm/dd') as BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , TO_CHAR(EM.KENSA_DATE, 'yyyy/mm/dd') as KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:19:23.702 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+ERROR 2025-11-19 17:19:29.670 [1] DoctorNetIFService.Model.TableInfoManager ExeSelectDb - XML出力用データ取得でエラーが発生しました。
+DEBUG 2025-11-19 17:22:12.279 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 17:22:12.299 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 17:22:12.304 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 17:22:12.306 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 17:22:12.306 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 17:22:12.308 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 17:22:12.310 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 17:22:12.310 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 17:22:12.313 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 17:22:12.315 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 17:22:12.315 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 17:22:31.058 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 17:22:31.842 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 17:22:31.851 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:22:31.857 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:22:31.863 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:22:31.865 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:22:32.558 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 17:22:32.561 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:22:32.571 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:22:32.577 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:22:32.586 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:22:33.313 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 17:22:35.076 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:22:35.076 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 17:22:41.265 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , TO_CHAR(PI.BIRTHDAY, 'yyyy/mm/dd') as BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , TO_CHAR(EM.KENSA_DATE, 'yyyy/mm/dd') as KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:22:41.272 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+ERROR 2025-11-19 17:22:47.670 [1] DoctorNetIFService.Model.TableInfoManager ExeSelectDb - XML出力用データ取得でエラーが発生しました。
+ERROR 2025-11-19 17:22:58.975 [1] DoctorNetIFService.Program Main - アプリケーションを多重起動しようとした為、アプリケーションを強制終了します。
+ERROR 2025-11-19 17:23:01.168 [1] DoctorNetIFService.Program Main - アプリケーションを多重起動しようとした為、アプリケーションを強制終了します。
+DEBUG 2025-11-19 17:23:05.051 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 17:23:05.074 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 17:23:05.076 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 17:23:05.076 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 17:23:05.076 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 17:23:05.076 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 17:23:05.076 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 17:23:05.076 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 17:23:05.076 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 17:23:05.076 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 17:23:05.076 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 17:23:10.375 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 17:23:11.483 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 17:23:11.483 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:23:11.492 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:23:11.492 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:23:11.498 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:23:12.295 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 17:23:12.307 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:23:12.312 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:23:12.312 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:23:12.315 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:23:12.957 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 17:23:14.873 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:23:14.876 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 17:55:16.014 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 17:55:16.044 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 17:55:16.045 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 17:55:16.047 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 17:55:16.049 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 17:55:16.050 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 17:55:16.051 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 17:55:16.053 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 17:55:16.054 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 17:55:16.056 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 17:55:16.057 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 17:55:54.311 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 17:56:25.280 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 17:56:25.299 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:56:25.306 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:56:25.315 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:56:25.318 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:56:26.123 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 17:56:26.127 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:56:26.132 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:56:26.137 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:56:26.146 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:56:26.916 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 17:56:28.842 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:56:28.845 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 17:57:45.529 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:57:45.529 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 17:57:58.801 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 17:57:58.830 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 17:57:58.831 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 17:57:58.834 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 17:57:58.837 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 17:57:58.837 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 17:57:58.841 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 17:57:58.841 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 17:57:58.846 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 17:57:58.848 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 17:57:58.848 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 17:58:02.592 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 17:58:03.246 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 17:58:03.266 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:58:03.273 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:58:03.279 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:58:03.285 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:58:07.228 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 17:58:07.233 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 17:58:07.233 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 17:58:07.233 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 17:58:07.242 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 17:58:08.395 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 17:58:10.592 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:58:10.592 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 17:58:24.467 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 17:58:24.471 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:09:13.312 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:09:13.340 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:09:13.341 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:09:13.344 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:09:13.345 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:09:13.347 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:09:13.349 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:09:13.350 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:09:13.351 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:09:13.353 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:09:13.355 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:09:17.729 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:09:18.607 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:09:18.615 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:09:18.621 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:09:18.623 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:09:18.623 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:09:20.467 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:09:20.476 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:09:20.484 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:09:20.484 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:09:20.484 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:09:26.749 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:09:29.140 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:09:29.143 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:09:34.019 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:09:34.022 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:19:22.901 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:19:22.932 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:19:22.935 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:19:22.935 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:19:22.935 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:19:22.940 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:19:22.940 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:19:22.940 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:19:22.940 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:19:22.940 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:19:22.940 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:19:26.207 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:19:26.915 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:19:26.921 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:19:26.929 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:19:26.933 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:19:26.939 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:19:27.443 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:19:27.445 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:19:27.450 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:19:27.456 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:19:27.464 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:19:28.507 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:19:30.308 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:19:30.316 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:19:33.408 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:19:33.418 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+ERROR 2025-11-19 18:19:44.826 [1] DoctorNetIFService.Model.TableInfoManager ExeSelectDb - XML出力用データ取得でエラーが発生しました。
+ERROR 2025-11-19 18:19:53.491 [1] DoctorNetIFService.Program Main - アプリケーションを多重起動しようとした為、アプリケーションを強制終了します。
+ERROR 2025-11-19 18:19:56.092 [1] DoctorNetIFService.Program Main - アプリケーションを多重起動しようとした為、アプリケーションを強制終了します。
+DEBUG 2025-11-19 18:19:59.560 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:19:59.592 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:19:59.592 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:19:59.603 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:19:59.604 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:19:59.607 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:19:59.609 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:19:59.612 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:19:59.612 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:19:59.619 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:19:59.623 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:20:03.506 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:20:04.311 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:20:04.319 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:20:04.321 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:20:04.326 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:20:04.326 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:20:05.639 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:20:05.652 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:20:05.655 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:20:05.655 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:20:05.655 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:20:06.617 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:20:14.537 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:20:14.545 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:20:17.420 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:20:17.425 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:21:26.435 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:21:26.482 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:21:26.485 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:21:26.487 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:21:26.490 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:21:26.492 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:21:26.494 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:21:26.498 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:21:26.498 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:21:26.500 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:21:26.502 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:21:32.623 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:21:34.263 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:21:34.264 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:21:34.264 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:21:34.279 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:21:34.279 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:21:34.934 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:21:34.940 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:21:34.944 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:21:34.949 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:21:34.955 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:21:35.780 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:21:37.082 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:21:37.092 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:21:37.826 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.WEIGHT  , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:21:37.828 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:22:28.857 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:22:28.885 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:22:28.889 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:22:28.891 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:22:28.891 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:22:28.891 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:22:28.891 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:22:28.900 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:22:28.900 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:22:28.904 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:22:28.904 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:22:32.092 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:22:33.787 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:22:33.797 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:22:33.802 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:22:33.804 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:22:33.810 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:22:37.263 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:22:37.266 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:22:37.268 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:22:37.272 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:22:37.272 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:22:40.217 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:22:53.319 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:22:53.334 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:22:55.467 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.WEIGHT  , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:22:55.482 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:25:41.751 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:25:41.784 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:25:41.784 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:25:41.787 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:25:41.787 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:25:41.793 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:25:41.795 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:25:41.798 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:25:41.798 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:25:41.803 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:25:41.805 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:25:45.701 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:25:46.297 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:25:46.317 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:25:46.321 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:25:46.326 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:25:46.329 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:25:46.467 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:25:46.472 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:25:46.474 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:25:46.474 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:25:46.482 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:25:47.139 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:25:47.152 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:25:47.156 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:25:47.794 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.WEIGHT  , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:25:47.795 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+ERROR 2025-11-19 18:27:18.201 [1] DoctorNetIFService.Model.TableInfoManager Execute - ファイル作成に失敗しました。
+ERROR 2025-11-19 18:27:20.608 [1] DoctorNetIFService.Model.TableInfoManager Execute - エラーが発生しました。System.IO.DirectoryNotFoundException: パス 'C:\folder\DoctorNetIFService\0000000002_20180605_全部位_0997447120180605_20251119062425i.xml' の一部が見つかりませんでした。
+   場所 DoctorNetIFService.Model.TableInfoManager.Execute(IDbConnection cnRISDB, ToOtherSystemInfo toOtherSystemInfo) 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoManager.cs:行 90
+DEBUG 2025-11-19 18:37:16.388 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:37:16.419 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:37:16.419 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:37:16.419 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:37:16.419 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:37:16.419 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:37:16.419 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:37:16.429 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:37:16.429 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:37:16.436 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:37:16.436 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:37:26.567 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:37:27.284 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:37:27.298 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:37:27.298 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:37:27.313 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:37:27.314 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:37:27.469 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:37:27.471 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:37:27.474 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:37:27.474 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:37:27.481 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:37:28.060 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:37:28.070 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:37:28.074 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:37:32.394 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.WEIGHT  , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:37:32.406 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:44:14.731 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:44:14.752 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:44:14.752 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:44:14.752 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:44:14.757 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:44:14.758 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:44:14.759 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:44:14.761 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:44:14.763 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:44:14.764 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:44:14.764 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:44:19.541 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:44:20.336 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:44:20.346 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:44:20.348 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:44:20.351 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:44:20.353 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:44:20.475 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:44:20.479 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:44:20.483 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:44:20.483 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:44:20.487 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:44:21.048 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:44:21.058 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:44:21.064 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:44:21.752 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.WEIGHT  , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:44:21.759 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:47:05.061 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:47:05.097 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:47:05.103 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:47:05.107 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:47:05.109 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:47:05.109 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:47:05.109 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:47:05.109 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:47:05.116 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:47:05.116 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:47:05.120 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:47:09.534 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:47:10.326 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:47:10.345 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:47:10.349 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:47:10.357 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:47:10.360 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:47:10.526 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:47:10.530 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:47:10.534 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:47:10.535 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:47:10.538 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:47:11.204 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:47:11.217 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:47:11.222 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:47:12.265 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.WEIGHT  , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:47:12.271 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:49:10.456 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:49:10.490 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:49:10.492 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:49:10.495 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:49:10.499 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:49:10.510 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:49:10.512 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:49:10.517 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:49:10.520 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:49:10.522 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:49:10.524 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:49:14.310 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:49:14.998 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:49:15.004 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:49:15.004 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:49:15.016 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:49:15.018 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:49:15.251 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:49:15.254 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:49:15.255 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:49:15.259 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:49:15.263 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:49:15.874 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:49:15.888 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:49:15.892 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:49:16.639 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.WEIGHT  , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:49:16.639 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:49:33.857 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - UPDATE TOOTHERSYSTEMINFO SET TRANSFERSTATUS = :transferstatus, TRANSFERDATE = SYSDATE, TRANSFERRESULT = :transferresult, TRANSFERTEXT = :transfertext WHERE requestid = :requestid AND ris_id = :ris_id 
+DEBUG 2025-11-19 18:49:33.857 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requestid,Type:String,Value:1229
+DEBUG 2025-11-19 18:49:33.857 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064366
+DEBUG 2025-11-19 18:49:33.873 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:transferstatus,Type:String,Value:01
+DEBUG 2025-11-19 18:49:33.873 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:transferresult,Type:String,Value:OK
+DEBUG 2025-11-19 18:49:33.885 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:4,Direction:Input,IsNullable:False,Name:transfertext,Type:String,Value:0000000002_20180605_全部位_0997447120180605_202511191849xml
+DEBUG 2025-11-19 18:49:33.891 [1] DoctorNetIFService.Model.TableInfoHelper UpdateToOtherSystemInfo - ToOtherSystemInfoテーブル更新します。
+DEBUG 2025-11-19 18:49:34.446 [1] DoctorNetIFService.Model.TableInfoHelper UpdateToOtherSystemInfo - ToOtherSystemInfoテーブル更新しました。
+DEBUG 2025-11-19 18:52:39.905 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:52:39.931 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:52:39.933 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:52:39.937 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:52:39.939 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:52:39.939 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:52:39.939 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:52:39.946 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:52:39.946 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:52:39.946 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService1
+DEBUG 2025-11-19 18:52:39.952 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:52:43.436 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します
+DEBUG 2025-11-19 18:52:44.142 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - 
+DEBUG 2025-11-19 18:52:44.152 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:52:44.155 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:52:44.158 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:52:44.159 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:52:44.283 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT   REQUESTID   ,RIS_ID FROM    TOOTHERSYSTEMINFO  WHERE    REQUESTTYPE in (:requesttype0, :requesttype1)  AND    SYSTEMNO  = :systemno  AND    TRANSFERSTATUS = '00'  AND    rownum <= :recordcount     ORDER BY REQUESTID ASC
+DEBUG 2025-11-19 18:52:44.287 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:requesttype0,Type:String,Value:OP01
+DEBUG 2025-11-19 18:52:44.291 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:1,Direction:Input,IsNullable:False,Name:requesttype1,Type:String,Value:OP02
+DEBUG 2025-11-19 18:52:44.295 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:2,Direction:Input,IsNullable:False,Name:systemno,Type:Int32,Value:1
+DEBUG 2025-11-19 18:52:44.295 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:3,Direction:Input,IsNullable:False,Name:recordcount,Type:Int32,Value:10
+DEBUG 2025-11-19 18:52:45.000 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 処理を開始します。
+DEBUG 2025-11-19 18:52:45.021 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  COUNT(EM.RIS_ID)  FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:52:45.028 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064365
+DEBUG 2025-11-19 18:52:45.870 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - SELECT  EM.RIS_ID  , PI.KANJA_ID  , PI.KANJISIMEI  , PI.KANASIMEI  , PI.ROMASIMEI  , PI.BIRTHDAY  , PI.SEX  , PI.BLOOD  , TRUNC(PI.TALL, 1) as TALL   , PI.WEIGHT  , PI.JUSYO1  , PI.INFECTION  , DECODE(PI.INFECTIONMARK, 1, '+', '-') AS INFECTIONMARK  , PI.CONTRAINDICATION  , DECODE(PI.CONTRAINDICATIONMARK, 1, '+', '-') AS CONTRAINDICATIONMARK  , EM.ENDCOUNT  , OM.ACCESSIONNO  , SM.SECTION_NAME  , OM.IRAI_SECTION_ID  , KTM.KENSATYPE_NAME  , OM.IRAI_DOCTOR_NAME  , OM.IRAI_DOCTOR_NO  , PI.KANJA_NYUGAIKBN  , BTM.BYOUTOU_NAME  , PI.BYOUTOU_ID  , OI.RINSYOU  , OI.KENSA_SIJI  , OI.ORDERCOMMENT_ID  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG  , BM.BUI_NAME  , EB.BUI_ID  , EM.KENSA_DATE  , TO_CHAR(EM.EXAMSTARTDATE, 'hh24:mi:ss') as EXAMSTARTDATE  , TO_CHAR(EM.EXAMENDDATE, 'hh24:mi:ss') as EXAMENDDATE  , KTM.MODALITY  , OM.KENSATYPE_ID  , HM.HOUKOU_NAME  , EB.HOUKOU_ID  , OM.STUDYINSTANCEUID  , EM.BIKOU FROM   EXMAINTABLE EM    LEFT JOIN ORDERMAINTABLE OM   ON EM.RIS_ID = OM.RIS_ID   LEFT JOIN EXTENDORDERINFO EO   ON EM.RIS_ID = EO.RIS_ID   LEFT JOIN ORDERINDICATETABLE OI   ON EM.RIS_ID = OI.RIS_ID   LEFT JOIN PATIENTINFO PI   ON EM.KANJA_ID = PI.KANJA_ID   LEFT JOIN EXBUITABLE EB   ON EM.RIS_ID = EB.RIS_ID   LEFT JOIN SECTIONMASTER SM   ON OM.IRAI_SECTION_ID = SM.SECTION_ID   LEFT JOIN KENSATYPEMASTER KTM   ON OM.KENSATYPE_ID = KTM.KENSATYPE_ID   LEFT JOIN BYOUTOUMASTER BTM   ON PI.BYOUTOU_ID = BTM.BYOUTOU_ID   LEFT JOIN HOUKOUMASTER HM   ON EB.HOUKOU_ID = HM.HOUKOU_ID   LEFT JOIN BUIMASTER BM   ON EB.BUI_ID = BM.BUI_ID WHERE  EM.RIS_ID = :ris_id   ORDER BY EB.NO ASC, EB.BUI_ID ASC 
+DEBUG 2025-11-19 18:52:45.873 [1] DoctorNetIFService.Model.TableInfoHelper WriteDbCommandLogForLog4net - Index:0,Direction:Input,IsNullable:False,Name:ris_id,Type:String,Value:2018060511064365
+ERROR 2025-11-19 18:53:10.016 [1] DoctorNetIFService.Model.TableInfoManager Execute - ファイル作成に失敗しました。
+ERROR 2025-11-19 18:53:12.489 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - System.IO.DirectoryNotFoundException: パス 'C:\folder\DoctorNetIFService1\0000000001_20180605_CRA_0997447020180605_202511191852.xml' の一部が見つかりませんでした。
+   場所 DoctorNetIFService.Model.TableInfoManager.Execute(IDbConnection cnRISDB, ToOtherSystemInfo toOtherSystemInfo) 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoManager.cs:行 106
+   場所 DoctorNetIFService.Model.TableInfoWatcher.ExcecuteOne() 場所 C:\Users\nishihara\Desktop\Project\資料\舞鶴医療センター\対応ソース\DoctorNetIFService\DoctorNetIFService\Model\TableInfoWatcher.cs:行 157
+DEBUG 2025-11-19 18:56:04.746 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadStopTimeoutの設定値。設定値 : 200000
+DEBUG 2025-11-19 18:56:04.767 [1] RISReportService.util.CommonUtil GetAppConfigValue - ClientCloseTimeoutの設定値。設定値 : 90000
+DEBUG 2025-11-19 18:56:04.774 [1] RISReportService.util.CommonUtil GetAppConfigValue - CommandTimeoutの設定値。設定値 : 30
+DEBUG 2025-11-19 18:56:04.774 [1] RISReportService.util.CommonUtil GetAppConfigValue - ThreadSleepTimeの設定値。設定値 : 500
+DEBUG 2025-11-19 18:56:04.779 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileDateFormatの設定値。設定値 : yyyyMMdd
+DEBUG 2025-11-19 18:56:04.779 [1] RISReportService.util.CommonUtil GetAppConfigValue - log4netFileRegexの設定値。設定値 : ^DoctorNetIFService\.(?<TargetGroup>\d{8})\.log(\.[0-9]*)?$
+DEBUG 2025-11-19 18:56:04.783 [1] RISReportService.util.CommonUtil GetAppConfigValue - LogStoreTermの設定値。設定値 : 30
+DEBUG 2025-11-19 18:56:04.783 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetRequestTypeの設定値。設定値 : OP01,OP02
+DEBUG 2025-11-19 18:56:04.787 [1] RISReportService.util.CommonUtil GetAppConfigValue - TargetSystemNoの設定値。設定値 : 1
+DEBUG 2025-11-19 18:56:04.787 [1] RISReportService.util.CommonUtil GetAppConfigValue - OutputFolderの設定値。設定値 : C:\folder\DoctorNetIFService
+DEBUG 2025-11-19 18:56:04.795 [1] RISReportService.util.CommonUtil GetAppConfigValue - RecordCountの設定値。設定値 : 10
+DEBUG 2025-11-19 18:56:08.596 [1] DoctorNetIFService.Model.TableInfoWatcher ExcecuteOne - 古いログファイルを削除します

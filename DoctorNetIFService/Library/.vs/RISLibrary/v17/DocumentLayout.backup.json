@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nishihara\\Desktop\\Project\\\u8CC7\u6599\\\u821E\u9DB4\u533B\u7642\u30BB\u30F3\u30BF\u30FC\\\u5BFE\u5FDC\u30BD\u30FC\u30B9\\DoctorNetIFService\\Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RISCommonLibrary||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RISODPLibrary||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|RISBizLibrary||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35168D47-191A-4BF8-9E9A-36C815B9CB5D}|RISCommonLibrary\\RISCommonLibrary.csproj|c:\\users\\nishihara\\desktop\\project\\\u8CC7\u6599\\\u821E\u9DB4\u533B\u7642\u30BB\u30F3\u30BF\u30FC\\\u5BFE\u5FDC\u30BD\u30FC\u30B9\\doctornetifservice\\library\\riscommonlibrary\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RISCommonLibrary",
+              "DocumentMoniker": "C:\\Users\\nishihara\\Desktop\\Project\\\u8CC7\u6599\\\u821E\u9DB4\u533B\u7642\u30BB\u30F3\u30BF\u30FC\\\u5BFE\u5FDC\u30BD\u30FC\u30B9\\DoctorNetIFService\\Library\\RISCommonLibrary\\RISCommonLibrary.csproj",
+              "RelativeDocumentMoniker": "RISCommonLibrary\\RISCommonLibrary.csproj",
+              "ToolTip": "C:\\Users\\nishihara\\Desktop\\Project\\\u8CC7\u6599\\\u821E\u9DB4\u533B\u7642\u30BB\u30F3\u30BF\u30FC\\\u5BFE\u5FDC\u30BD\u30FC\u30B9\\DoctorNetIFService\\Library\\RISCommonLibrary\\RISCommonLibrary.csproj",
+              "RelativeToolTip": "RISCommonLibrary\\RISCommonLibrary.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-27T09:34:53.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RISODPLibrary",
+              "DocumentMoniker": "C:\\Users\\nishihara\\Desktop\\Project\\\u8CC7\u6599\\\u821E\u9DB4\u533B\u7642\u30BB\u30F3\u30BF\u30FC\\\u5BFE\u5FDC\u30BD\u30FC\u30B9\\DoctorNetIFService\\Library\\RISODPLibrary\\RISODPLibrary.csproj",
+              "RelativeDocumentMoniker": "RISODPLibrary\\RISODPLibrary.csproj",
+              "ToolTip": "C:\\Users\\nishihara\\Desktop\\Project\\\u8CC7\u6599\\\u821E\u9DB4\u533B\u7642\u30BB\u30F3\u30BF\u30FC\\\u5BFE\u5FDC\u30BD\u30FC\u30B9\\DoctorNetIFService\\Library\\RISODPLibrary\\RISODPLibrary.csproj",
+              "RelativeToolTip": "RISODPLibrary\\RISODPLibrary.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-27T09:34:47.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RISBizLibrary",
+              "DocumentMoniker": "C:\\Users\\nishihara\\Desktop\\Project\\\u8CC7\u6599\\\u821E\u9DB4\u533B\u7642\u30BB\u30F3\u30BF\u30FC\\\u5BFE\u5FDC\u30BD\u30FC\u30B9\\DoctorNetIFService\\Library\\RISBizLibrary\\RISBizLibrary.csproj",
+              "RelativeDocumentMoniker": "RISBizLibrary\\RISBizLibrary.csproj",
+              "ToolTip": "C:\\Users\\nishihara\\Desktop\\Project\\\u8CC7\u6599\\\u821E\u9DB4\u533B\u7642\u30BB\u30F3\u30BF\u30FC\\\u5BFE\u5FDC\u30BD\u30FC\u30B9\\DoctorNetIFService\\Library\\RISBizLibrary\\RISBizLibrary.csproj",
+              "RelativeToolTip": "RISBizLibrary\\RISBizLibrary.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-27T09:34:37.256Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
