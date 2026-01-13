@@ -149,7 +149,7 @@ namespace DoctorNetIFService.Model
                 "  , OI.RINSYOU" +
                 "  , OI.KENSA_SIJI" +
                 "  , OI.ORDERCOMMENT_ID" +
-                "  , DECODE(EO.SIKYU_FLG, 1, '1', NULL) AS SIKYU_FLG" +
+                "  , DECODE(EM.DOCTORNET_FLG, 2, '1', NULL) AS SIKYU_FLG" +
                 "  , BM.BUI_NAME" +
                 "  , EB.BUI_ID" +
                 "  , EM.KENSA_DATE" +
@@ -165,8 +165,6 @@ namespace DoctorNetIFService.Model
                 "   EXMAINTABLE EM " +
                 "   LEFT JOIN ORDERMAINTABLE OM" +
                 "   ON EM.RIS_ID = OM.RIS_ID" +
-                "   LEFT JOIN EXTENDORDERINFO EO" +
-                "   ON EM.RIS_ID = EO.RIS_ID" +
                 "   LEFT JOIN ORDERINDICATETABLE OI" +
                 "   ON EM.RIS_ID = OI.RIS_ID" +
                 "   LEFT JOIN PATIENTINFO PI" +
