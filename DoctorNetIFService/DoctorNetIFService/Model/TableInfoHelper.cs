@@ -122,7 +122,7 @@ namespace DoctorNetIFService.Model
             const string queryParts =
                 "SELECT" +
                 "  EM.RIS_ID" +
-                "  , PI.KANJA_ID" +
+                "  , substr(EM.KANJA_ID,-:kanjaIdDigit) AS KANJA_ID" +
                 "  , PI.KANJISIMEI" +
                 "  , PI.KANASIMEI" +
                 "  , PI.ROMASIMEI" +
@@ -186,7 +186,6 @@ namespace DoctorNetIFService.Model
                 "  EM.RIS_ID = :ris_id " +
                 "  ORDER BY EB.NO ASC, EB.BUI_ID ASC ";
 
-
             string query = queryParts;
 
             using (IDbCommand command = cnRISDB.CreateCommand())
@@ -195,11 +194,25 @@ namespace DoctorNetIFService.Model
                 command.CommandText = query;
 
                 #region パラメータ設定
+                // ris_id
+                IDataParameter pRis = command.CreateParameter();
+                pRis.SetInputString(XmlOutPutDataEntity.FIELD_RIS_ID, ris_id);
+                command.Parameters.Add(pRis);
 
-                command.Parameters.Clear();
-                IDataParameter param = command.CreateParameter();
-                param.SetInputString(XmlOutPutDataEntity.FIELD_RIS_ID, ris_id);
-                command.Parameters.Add(param);
+                // settingDigits
+                IDataParameter pDigits = command.CreateParameter();
+
+                //患者IDの桁数設定
+                int kanjaIdDigit = 0;
+
+                //読み込み失敗したときは8桁を設定
+                if (!int.TryParse(AppConfigController.GetInstance().GetValueString(AppConfigParameter.kanjaIdDigit), out kanjaIdDigit))
+                {
+                    kanjaIdDigit = 8;
+                }
+
+                pDigits.SetInputInt32("kanjaIdDigit", kanjaIdDigit);
+                command.Parameters.Add(pDigits);
 
                 #endregion
 

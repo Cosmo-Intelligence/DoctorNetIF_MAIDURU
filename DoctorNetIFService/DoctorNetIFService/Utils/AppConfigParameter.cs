@@ -17,5 +17,6 @@ namespace RISReportService.util
         public static string targetSystemNo = "TargetSystemNo";
         public static string outputFolder = "OutputFolder";
         public static string recordCount = "RecordCount";
+        public static string kanjaIdDigit = "KanjaIdDigit";
     }
 }

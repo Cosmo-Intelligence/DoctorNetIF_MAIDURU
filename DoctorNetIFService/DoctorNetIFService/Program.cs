@@ -150,6 +150,7 @@ namespace DoctorNetIFService
             if (!CommonUtil.GetAppConfigValue(AppConfigParameter.targetSystemNo, table, false, null)) { return false; }
             if (!CommonUtil.GetAppConfigValue(AppConfigParameter.outputFolder, table, false, null)) { return false; }
             if (!CommonUtil.GetAppConfigValue(AppConfigParameter.recordCount, table, false, null)) { return false; }
+            if (!CommonUtil.GetAppConfigValue(AppConfigParameter.kanjaIdDigit, table, false, null)) { return false; }
 
             return true;
         }
